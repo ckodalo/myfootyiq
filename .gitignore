@@ -1,1 +1,33 @@
-.env
+# ============ Backend (Python / FastAPI) ============
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/*.db
+backend/*.sqlite3
+backend/.pytest_cache/
+
+# ============ Frontend (Node / React / Vite) ============
+vite-project/node_modules/
+vite-project/dist/
+vite-project/.env
+vite-project/.env.local
+vite-project/*.local
+vite-project/coverage/
+
+# Vite
+vite-project/.vite/
+
+# ============ Editors / OS ============
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ============ Logs ============
+*.log
+npm-debug.log*
